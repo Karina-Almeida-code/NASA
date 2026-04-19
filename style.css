@@ -1,0 +1,198 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+body {
+   overflow: hidden;
+
+   width: 100vw;
+   height: 100vh;
+   /* Altura da tela inteira */
+   background-image: url(./img/nasa2.avif);
+   /* Caminho da imagem */
+   background-size: cover;
+   /* Ajusta a imagem para cobrir todo o espaço */
+   background-position: center;
+   /* Centraliza a imagem */
+   background-repeat: no-repeat;
+   /* Evita repetição da imagem */
+
+
+}
+
+header {
+   background: linear-gradient(90deg, #ca1111, #0d19c7);
+   height: 65px;
+}
+
+nav {
+   position: relative;
+   left: 70%;
+   bottom: 50px;
+   font-size: 10px;
+
+}
+
+.logo-nasa1 {
+   position: relative;
+   top: 10px;
+   left: 5px;
+   border: none;
+}
+
+input {
+   position: relative;
+   left: 10px;
+   bottom: 15px;
+   border-radius: 5px;
+   border: none;
+
+}
+
+button {
+   background-color: red;
+   color: aliceblue;
+   border: none;
+   border-radius: 5px;
+   width: 250px;
+   height: 40px;
+   font-size: 15px;
+   font-weight: bold;
+   margin-top: 10px;
+}
+
+a {
+   margin-left: 20px;
+   color: rgb(22, 19, 19);
+   font-size: 13px;
+   font-weight: bold;
+
+}
+
+h1 {
+   color: aliceblue;
+   font-size: 60px;
+}
+
+p {
+   color: rgb(207 193 193);
+   font-size: 18px;
+}
+
+section {
+   width: 60%;
+   position: relative;
+   top: 120px;
+
+}
+
+a:hover {
+   opacity: 0.7;
+}
+
+a:active {
+   color: rgb(252, 249, 249);
+}
+
+button:hover {
+   opacity: 0.7;
+}
+
+button:active {
+   opacity: 0.5;
+}
+
+@media (max-width:768px) {
+
+
+   body {
+      width: 100%;
+      min-height: 100vh;
+   }
+
+   header {
+      height: 70px;
+      padding: 5px 10px;
+      flex-direction: column;
+
+   }
+
+   nav {
+      position: relative;
+      left: 32%;
+      bottom: 80px;
+      font-size: 8px;
+      max-width: 70%;
+   }
+
+   a {
+      font-size: 10px;
+      text-decoration: none;
+      margin-left: 7px;
+      font-weight: bold;
+   }
+
+   .logo-nasa {
+      position: static;
+      display: block;
+      margin: 0 auto;
+      width: 40px;
+   }
+
+   input {
+      display: block;
+        margin: 10px auto;
+        position: relative;
+        left: 20%;
+        margin-top: 12px;
+   }
+
+   h1 {
+      font-size: 28px;
+      text-align: center;
+   }
+   
+
+   p {
+      font-size: 16px;
+      text-align: center;
+   }
+
+   button {
+      width: 100%;
+      max-width: 300px;
+      display: block;
+      margin: 10px auto;
+   }
+
+   /* Section ocupando tela toda */
+   section {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 10%;
+      position: relative;
+    top: 340px;
+   }
+
+a:hover {
+   opacity: 0.7;
+}
+
+a:active {
+   color: rgb(252, 249, 249);
+}
+
+button:hover {
+   opacity: 0.7;
+}
+
+button:active {
+   opacity: 0.5;
+}
+}

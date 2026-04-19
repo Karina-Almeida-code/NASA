@@ -1,0 +1,224 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+   width: 100vw;
+   height: 100vh;
+   overflow-x: hidden;
+}
+
+header {
+
+   /*
+   background-color: red;
+   height: 65px;
+   */
+
+   background: linear-gradient(90deg, #ca1111, #0d19c7);
+   height: 65px;
+
+}
+
+nav {
+   position: relative;
+   left: 70%;
+   bottom: 50px;
+   font-size: 10px;
+}
+
+.logo-nasa1 {
+   position: relative;
+   top: 10px;
+   left: 5px;
+   border: none;
+}
+
+input {
+   position: relative;
+   left: 10px;
+   bottom: 15px;
+   border-radius: 5px;
+   border: none;
+}
+
+a {
+   margin-left: 20px;
+
+   color: black;
+   font-size: 13px;
+   font-weight: bold;
+
+}
+
+a:hover {
+   opacity: 0.7;
+}
+
+a:active {
+   color: rgb(252, 249, 249);
+}
+
+aside {
+   position: relative;
+   bottom: 600px;
+   left: 400px;
+   background-color: red;
+   border-radius: 10px;
+   width: 300px;
+   height: 90px;
+   background-color: beige;
+
+}
+
+
+.principal {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   position: relative;
+   left: 20%;
+
+}
+
+.noticia-1,
+.noticia-3,
+.noticia4 {
+   width: 80%;
+   position: relative;
+   top: 80px;
+}
+
+.conteiner {
+   max-width: 80%;
+   margin: 0, auto;
+   padding: 20px;
+
+
+
+}
+
+h1 {
+   max-width: 80%;
+   font-size: 40px;
+}
+
+p {
+   max-width: 600px;
+   line-height: 1.6;
+   color: #555;
+}
+
+img {
+   max-width: 80%;
+}
+
+
+
+@media (max-width:768px) {
+
+
+   body {
+      width: 100%;
+      min-height: 100vh;
+   }
+
+     section {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-left: 10%;
+      position: relative;
+      top: 150px;
+   }
+
+   header {
+      height: 70px;
+      padding: 5px 10px;
+      flex-direction: column;
+
+   }
+
+
+   nav {
+      position: relative;
+      left: 32%;
+      bottom: 80px;
+      font-size: 8px;
+      max-width: 70%;
+      margin-top: 42px;
+   }
+
+   a {
+      font-size: 10px;
+      text-decoration: none;
+      margin-left: 7px;
+      font-weight: bold;
+   }
+
+   img {
+      max-width: 100%;
+   }
+
+   .logo-nasa {
+      position: static;
+      display: block;
+      margin: 0 auto;
+      width: 40px;
+   }
+
+   input {
+      display: none
+   }
+   .principal{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    left: 15%
+    
+   }
+
+   h1 {
+      font-size: 25px;
+      text-align: center;
+      max-width: 100%;
+        margin-bottom: 20px;
+   }
+
+   p {
+      font-size: 12px;
+      width: 280px;
+      position: relative;
+      margin-bottom: 20px;
+
+
+   }
+
+   button {
+      width: 100%;
+      max-width: 300px;
+      display: block;
+      margin: 10px auto;
+   }
+
+   .noticia-1,
+.noticia-3,
+.noticia4 {
+   width: 100%;
+   position: relative;
+   top: 80px;
+   border-radius: 20px;
+        background-color: rgb(243, 243, 228)
+}
+ 
+}
