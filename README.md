@@ -1,7 +1,8 @@
-projeto NASA
+
 
 # 🚀 NASA Explorer
 <img width="1366" height="648" alt="nasa-site" src="https://github.com/user-attachments/assets/14ac955c-0e17-4d17-86b6-cb0d5679d9bd" />
+
 
 ## 📌 Sobre o Projeto
 O **NASA Explorer** é uma aplicação web desenvolvida como parte dos meus estudos em desenvolvimento front-end.  
